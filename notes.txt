@@ -1,0 +1,10 @@
+use tsc -init -> make a tscConfig file
+changes:
+rootDir -> where the tsc is located
+outDir -> where to put compiled files
+
+tsc -w -> like nodemon, update the  compiled file
+on every change
+
+tsc <fileName> -w -> looks at the file only
+
